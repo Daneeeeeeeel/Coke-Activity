@@ -1,0 +1,101 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  display: flexbox;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 0%;
+}
+
+
+.hero {
+  position: relative;
+  height: 120vh;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.circle {
+  width: 800px;
+  height: 1000px;
+  background: #ff0000;
+  border-radius: 70%;
+  z-index: 1;
+  left: 75%;
+  top: 40%;
+  position: absolute;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.content h1 {
+  font-size: 3.1rem;
+  color: #222;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flexbox;
+}
+
+.content p {
+  margin: 30px 0px;
+  font-size: 20px;
+  color: #555;
+  display: flex;
+
+}
+
+button {
+  background: #ff0000;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 70px;
+}
+
+.coke-can {
+  position: absolute;
+  left: 72%;
+  bottom: 15%;
+  height: 650px;
+  z-index: 1;
+  width: 500px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flexbox;
+}
+
+.logo {
+  width: 6.9%;
+  height: 14%;
+  position: absolute;
+  top: 3%;
+  display:flex;
+  right: 86%;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.kup {
+  left: 70%;
+  bottom: 89%;
+
+  color: red;
+  position: absolute;
+  text-decoration: none;
+}
